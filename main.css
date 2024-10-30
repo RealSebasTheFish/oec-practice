@@ -1,0 +1,31 @@
+document, body {
+    margin: 0;
+    padding: 0;
+}
+
+#section1 {
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#section2 {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+}
+
+#myimage {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    font-size: 100px;
+}
