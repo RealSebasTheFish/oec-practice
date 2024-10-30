@@ -6,6 +6,44 @@
 
         <!-- Importing css file -->
         <link type="text/css" rel="stylesheet" href="main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            /*
+            var myInt = 100;
+            var myList = ["Banana", "Tomato", "Potato"];
+            var myString = "Test string";
+
+            if (myInt == 100) {
+
+            }
+
+            for (var i = 0; i < myInt; i++) {
+
+            }
+
+            while (false) {
+
+            }
+            */
+
+            $(document).ready(function(){
+                var input = prompt("My question");
+
+                if (input == "yes") {
+                    $("#section1").html("<p>Hooray!</p>");
+                }
+                else {
+                    $("#section1").html("<p>Booooo</p>");
+                }
+
+                
+                $("#section1").css("background-color", "red");
+
+                $("#section2").on("click", function() {
+                    console.log("Div 2 was clicked!");
+                });
+            });
+        </script>
     </head>
     <body>
         <div id="section1">
