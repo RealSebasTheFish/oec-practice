@@ -3,7 +3,7 @@
 1. Create a directory for your node server
 2. cd into that folder
 3. Create an app.js in that directory
-4. Run the command 'npm init' (make sure you are in your directory with your app.js)
+4. Run the command 'npm init' (make sure you are in the directory with your app.js)
 5. Run your 'npm install [package-name]' commands for all library imports respectively
 6. After you are done your server code, run it with 'node [file-name]'
 
