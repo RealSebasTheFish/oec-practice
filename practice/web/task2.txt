@@ -1,0 +1,1 @@
+TASK: Develop a calculator that include basic functions such as addition, subtraction, multiplication, and division. Allow the operations to be buttons, and the numbers to be inputted through a text field. The output should be display in an HTML element too. The styling is up to you, but attempt to keep it as user friendly as possible.

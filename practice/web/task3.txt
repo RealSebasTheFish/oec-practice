@@ -1,0 +1,10 @@
+TASK: 
+Develop a website with the following components
+
+- A menu that should stay at the top of the screen no matter how far you scroll down on the webpage. The menu should contain links to other pages. What is on the pages is up to you, but the menu should stick to the top of the page, and should have links to at least 2 other pages, so in total at least a 3 page website
+
+- On one of the pages, include a pop-out menu that appears when you click a button, and disappears when you click a close button
+
+- On another one of the pages, make it so when you click the button "e" on your keyboard, an alert pops up at the top of the screen (for this, use the alert() function to create the alert)
+
+- On the last page, include a video of your choosing

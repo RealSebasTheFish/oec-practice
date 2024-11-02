@@ -1,0 +1,1 @@
+TASK: Create a node.js server that implements express to serve a webpage to your localhost port 3000. This webpage should include a basic HTML website, basic css, at least 2 images, and includes a div that changes to a random color when you click on it
