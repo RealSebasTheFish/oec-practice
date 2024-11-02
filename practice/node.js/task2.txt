@@ -4,7 +4,10 @@ The client should be able to POST a message to the server
 
 The client should also be agle to GET the last message that was sent to the server
 
-Here's the catch: if the client sends a message to the server, then the server is completely stopped (with crtl+c), and then the server is restarted, if the client then send a GET request for the last message sent, the server should still return the last message that was posted to the server before shutdown. For example:
+Here's the catch: if the client sends a message to the server, then the server is completely stopped 
+(with crtl+c), and then the server is restarted, if the client then send a GET request for the last 
+message sent, the server should still return the last message that was posted to the server before 
+shutdown. For example:
 
 1. Client sends POST request with message "Hello!" to the server
 2. Server is stopped with crtl+c

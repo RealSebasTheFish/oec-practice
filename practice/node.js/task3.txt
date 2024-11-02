@@ -4,6 +4,8 @@ TASK: Develop a node.js server using express that serves an HTML website that do
 
 - The website should consist of at least 3 pages
 
-- One of the pages should contain a text input and a button that when clicked, sends a request to the server using an HTTP request (called in javascript), and recieves: "The message" + [message from text input] + " has been successfully recieved by the server", as a response basck from the server.
+- One of the pages should contain a text input and a button that when clicked, sends a request to the 
+server using an HTTP request (called in javascript), and recieves: "The message" + [message from text 
+input] + " has been successfully recieved by the server", as a response basck from the server.
 
 - Another one of the pages should include a live count of the world's population that updates automatically when the page is refreshed through the use of an API
