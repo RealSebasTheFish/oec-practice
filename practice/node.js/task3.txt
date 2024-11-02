@@ -8,4 +8,5 @@ TASK: Develop a node.js server using express that serves an HTML website that do
 server using an HTTP request (called in javascript), and recieves: "The message" + [message from text 
 input] + " has been successfully recieved by the server", as a response basck from the server.
 
-- Another one of the pages should include a live count of the world's population that updates automatically when the page is refreshed through the use of an API
+- Another one of the pages should include a live count of the world's population that updates 
+automatically when the page is refreshed through the use of an API
