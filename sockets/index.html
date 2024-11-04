@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/4.8.0/socket.io.min.js" integrity="sha384-OoIbkvzsFFQAG88r+IqMAjyOtYDPGO0cqK5HF5Uosdy/zUEGySeAzytENMDynREd" crossorigin="anonymous"></script>
+    <script>
+        var socket = io("http://localhost:3000", { transports : ['websocket'] });
+
+        socket.on("connect", function(){
+            console.log("Connected successfully!");
+        })
+
+        socket.on("messageRecieved", function(data){
+            var message = document.createElement("p");
+            message.textContent = data;
+            document.getElementById("chatbox").prepend(message);
+        })
+
+        function sendData() {
+            var myMessage = document.getElementById("myText").value;
+            socket.emit("sendMessage", myMessage);
+            document.getElementById("myText").value = "";
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="myText" />
+    <button onclick="sendData();">Click me!</button>
+    <div id="chatbox"></div>
+</body>
+</html>
