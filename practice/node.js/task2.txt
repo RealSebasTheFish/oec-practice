@@ -2,7 +2,7 @@ TASK: Develop a node.js server that implements express, and a python client with
 
 The client should be able to POST a message to the server
 
-The client should also be agle to GET the last message that was sent to the server
+The client should also be able to GET the last message that was sent to the server
 
 Here's the catch: if the client sends a message to the server, then the server is completely stopped 
 (with crtl+c), and then the server is restarted, if the client then send a GET request for the last 
